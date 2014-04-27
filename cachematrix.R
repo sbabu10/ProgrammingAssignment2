@@ -1,3 +1,4 @@
+
 ## there are two functions
 ## usage: cacheSolve(makeCacheMatrix(inp))
 ## input paramter: square matrix
@@ -34,7 +35,7 @@ cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   m <- x$getinv()
   if(!is.null(m)) {
-    message("getting cached data")
+    message("getting cached matrix inverse")
     return(m)
   }
   data <- x$get()
